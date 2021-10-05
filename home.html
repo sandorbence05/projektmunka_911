@@ -11,28 +11,49 @@
 <body>
     <header></header>
 
-    <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="tortenet.html">Történet</a></li>
-            <li><a href="kovetkezmenyek.html">Következmények</a></li>
-            <li><a href="repulok.html">Repülők</a></li>
-            <li><a href="kulonleges_kepek.html">Különleges képek</a></li>
-            <li><a href="videok_tarhaza.html">Videók</a></li>
-            <li><a href="info_rolunk.html">Infó rólunk</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">911 terrortámadás</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Kezdőlap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tortenet.html">Történet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="repulok.html">Repülők</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kovetkezmenyek.html">Következmények</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-link" href="kulonleges_kepek.html">Különleges képek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videok_tarhaza.html">Videók tárháza</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <div class="container">
-        <section>
-            <h1>911-es terrortámadás</h1>
-            <img class="kezdokep" src="kepek/kk.jpg" alt="2 ikertorony">
-        </section>
-
-        <section class="leiras">
-            <p>Ezt a projektmunkát a 911-es terrortámadás témában csináltuk</p>
-            <p>Reméljük tetszeni fog önöknek!</p>
-        </section>
+        <div class="row">
+            <section>
+                <h1>911-es terrortámadás</h1>
+                <img class="img-fluid mx-auto d-block kezdokep" src="kepek/kk.jpg" alt="2 ikertorony">
+            </section>
+    
+            <section class="leiras">
+                <button onclick="typeWriter()">Kattints rám!</button>
+                <p id="szoveg_kiiratas"></p>
+            </section>
+        </div>
     </div>
 
 
@@ -40,5 +61,6 @@
         <p>Készítette: Sándor Bence, Németh Tamás, Szegedi Dávid ©2021</p>
     </footer>
     
+    <script src="scripts/typewriter.js"></script>
 </body>
 </html>

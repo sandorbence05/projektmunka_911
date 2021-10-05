@@ -4,117 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_fileok/videok.css">
     <title>Videók tárháza</title>
 </head>
 <body>
     <div class="fejlec"></div>
 
-    <nav>
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="tortenet.html">Történet</a></li>
-            <li><a href="kovetkezmenyek.html">Következmények</a></li>
-            <li><a href="repulok.html">Repülők</a></li>
-            <li><a href="kulonleges_kepek.html">Különleges képek</a></li>
-            <li><a href="videok_tarhaza.html">Videók</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">911 terrortámadás</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tortenet.html">Történet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="repulok.html">Repülők</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kovetkezmenyek.html">Következmények</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="kulonleges_kepek.html">Különleges képek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="videok_tarhaza.html">Videók tárháza</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <div class="main">
-        <section>
-            <h1>Videók tárháza és hangfileok</h1>
-        </section>
-
-        <section>
-            <h2>Táblázat a videókról</h2>
-            <table>
-                <thead>
-                    <th>Első videó</th>
-                    <th>Második videó</th>
-                    <th>Harmadik videó</th>
-                    <th>Negyedik videó</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="https://www.youtube.com/watch?v=i4CAwjfY-dU"></a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.youtube.com/watch?v=EEogeIIOJzU"></a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.youtube.com/watch?v=JVPgjIXxmZ8"></a></td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://www.youtube.com/watch?v=SMDkvJRHaNM"></a></td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section>
-            <h2>Táblázat a hangfileokról</h2>
-            <table>
-                <thead>
-                    <th>Első hangfile</th>
-                    <th>Második hangfile</th>
-                    <th>Harmadik hangfile</th>
-                    <th>Negyedik hangfile</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Mohamed Atta elős figyelmeztetése a United 11-es járatán</td>
-                        <td>
-                            <audio controls>
-                                <source src="Hangfálj/United11_1.ogg" type="audio/ogg"> 
-                            </audio>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Mohamed Atta második figyelmeztetése a United 11-es járatán</td>
-                        <td>
-                            <audio controls>
-                                <source src="Hangfálj/United11_2.ogg" type="audio/ogg">
-                            </audio>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>A United 93-as járat elsé Mayday jelzése</td>
-                        <td>
-                            <audio controls>
-                                <source src="Hangfálj/United93_mayday1.ogg" type="audio/ogg">
-                            </audio>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>A United 93-as járat második Mayday jelzése</td>
-                        <td>
-                            <audio controls>
-                                <source src="Hangfálj/United93_mayday2.ogg" type="audio/ogg">
-                            </audio>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <audio controls>
-                                <source src="Hangfálj/firstwarn.ogg" type="audio/ogg"> 
-                            </audio>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>
-                            <audio controls>
-                                <source src="Hangfálj/secondwarn.ogg" type="audio/ogg"> 
-                            </audio>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+    <div class="container">
+        <div class="row">
+            <section>
+                <h1>Videók tárháza és hangfileok</h1>
+            </section>
+    
+            <section>
+                <h2>Táblázat a videókról</h2>
+                <table>
+                    <thead>
+                        <th>Videók</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=i4CAwjfY-dU">9/11: How America’s worst terror attack unfolded</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=EEogeIIOJzU">9/11: As Events Unfold</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=JVPgjIXxmZ8">A look back at the 9/11 terror attacks</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.youtube.com/watch?v=SMDkvJRHaNM">The Falling Man | Behind The Photo | 100 Photos | TIME</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <section>
+                <h2>Táblázat a hangfileokról</h2>
+                <table>
+                    <thead>
+                        <th>Hangfileok</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Mohamed Atta elős figyelmeztetése a United 11-es járatán</td>
+                            <td>
+                                <audio controls>
+                                    <source src="Hangfálj/United11_1.ogg" type="audio/ogg"> 
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mohamed Atta második figyelmeztetése a United 11-es járatán</td>
+                            <td>
+                                <audio controls>
+                                    <source src="Hangfálj/United11_2.ogg" type="audio/ogg">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A United 93-as járat elsé Mayday jelzése</td>
+                            <td>
+                                <audio controls>
+                                    <source src="Hangfálj/United93_mayday1.ogg" type="audio/ogg">
+                                </audio>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A United 93-as járat második Mayday jelzése</td>
+                            <td>
+                                <audio controls>
+                                    <source src="Hangfálj/United93_mayday2.ogg" type="audio/ogg">
+                                </audio>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
     </div>
 
-    <footer>
+    <footer class="text-center p-3">
         <p>Készítette: Sándor Bence, Németh Tamás, Szegedi Dávid ©2021</p>
     </footer>
     
