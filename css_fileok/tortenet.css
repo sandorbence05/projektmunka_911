@@ -15,6 +15,11 @@ h1, h2{
 
 p{
     text-indent: 10px;
+    color: #a5bfca;
+}
+
+.kep_szoveg{
+    float: right;
 }
 
 .kepek{
