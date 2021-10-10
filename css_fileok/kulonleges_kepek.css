@@ -13,7 +13,12 @@ footer{
     height: 50px;
     width: 100%;
     background-color: #2d3e56;
-    color: rgb(101, 112, 142);
+    color: #a5bfca;
+}
+
+h1,h2{
+    color: #a5bfca;
+    text-align: center;
 }
 
 .kepek{
