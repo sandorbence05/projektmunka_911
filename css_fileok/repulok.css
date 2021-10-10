@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200&display=swap');
 
-h1{
+h1, h2{
     text-align: center;
     font-weight: lighter;
+    color: #a5bfca;
 }
 
 body{
@@ -24,6 +25,7 @@ nav{
 
 ul{
     list-style-type: none;
+    color: #a5bfca;;
 }
 
 footer{
@@ -33,4 +35,5 @@ footer{
     color: rgb(101, 112, 142);
     position: relative;
     top: 90px;
+    color: #a5bfca;
 }

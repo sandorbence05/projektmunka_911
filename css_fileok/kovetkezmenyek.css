@@ -10,17 +10,19 @@ nav{
     background-color: #2d3e56;
 }
 
-h1{
+h1, h2{
     text-align: center;
+    color: #a5bfca;
 }
 
 footer{
     height: 50px;
     width: 100%;
     background-color: #2d3e56;
-    color: rgb(101, 112, 142);
+    color: #a5bfca;
 }
 
 p{
     text-indent: 10px;
+    color: #a5bfca;
 }
