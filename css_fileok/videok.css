@@ -9,27 +9,40 @@ nav{
     background-color: #2d3e56;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgba(39, 55, 82, 0.828);
+}
+
 h1{
     text-align: center;
+    color:white;
 }
 
 h2{
     text-indent: 5px;
+    color:white;
 }
 
 th{
     text-indent: 5px;
+    color:white;
 }
 
 td{
     padding: 10px;
+    color:white;
 }
 
 footer{
     height: 50px;
     width: 100%;
     background-color: #2d3e56;
-    color: rgb(101, 112, 142);
+    color:white;
     position: relative;
     top: 80px;
 }

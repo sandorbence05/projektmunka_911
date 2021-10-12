@@ -3,10 +3,10 @@
 body{
     background-color: #4c6386;
     font-family: 'Yaldevi', sans-serif;
-    color: #a5bfca;
+    color: white;
 }
 p{
-    color: #a5bfca;
+    color: white;
     text-indent: 10px;
 }
 nav{
@@ -19,7 +19,7 @@ footer{
     color: rgb(101, 112, 142);
 }
 h1, h2{
-    color: #a5bfca;
+    color: white;
 }
 h1{
     text-align: center;
